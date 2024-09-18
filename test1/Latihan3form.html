@@ -1,0 +1,199 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan Form</title>
+		<meta name="author" content="Arya pramana">
+		
+	</head>
+	<body style="margin:0px;padding:0px;display:flex;justify-content:center;">
+	
+		
+		<div style="
+		display:flex;
+		justify-content:center;
+		background-color:grey;
+		flex-direction:column;
+		align-items:center;
+		padding:50px;
+		margin:50px;
+		
+		
+		
+		">
+			
+			<table>
+			<h1 valign="center">FORM PENDAFTARAN</h1>
+				<form>
+					<tr>
+						<td>
+							<label for="nama">
+								Nama
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="nama" id="nama" placeholder="Masukkan Nama" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="NIM<">
+								NIM
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<input type="number" name="NIM" id="NIM" placeholder="Masukkan NIM" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="email">
+								Email
+							</label>
+						</td>
+						<td>
+							<label >
+								:
+							</label>
+						</td>
+						<td>
+							<input type="email" name="email" id="email" placeholder="Masukkan Email" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="Password">
+								Password
+							</label>
+						</td>
+						<td>
+							<label >
+								:
+							</label>
+						</td>
+						<td>
+							<input type="Password" name="Password" id="Password" placeholder="Masukkan Password" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="TanggalLahir">
+								Tanggal lahir
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<input type="date" name="Tanggallahir"id="TanggalLahir" placeholder="Masukkan Tanggal Lahir" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="jeniskelamin">
+								Jenis Kelamin
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<input type="radio" name="jeniskelamin" id="jeniskelamin" value="Laki-laki" required> Laki-laki
+							<input type="radio" name="jeniskelamin" id="jeniskelamin" value="Perempuan" required> Perempuan
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="hobi">
+								Hobi
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<input type="checkbox" name="hobi" id="hobi" value="membaca" required> Membaca
+							<input type="checkbox" name="hobi" id="hobi" value="berenang" required> Berenang
+							<input type="checkbox" name="hobi" id="hobi" value="bulutangkis" required> Bulu Tangkis
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="jurusan">
+								Jurusan
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<select>
+								<option value="">Pilihan jurusan</option>
+								<option value="TI">Teknologi Informasi</option>
+								<option value="mesin">Teknik Mesin</option>
+								<option value="elektro">Teknik Elektro</option>
+								<option value="alatberat">Teknik Alat Berat</option>
+								
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="alamat">
+								Alamat
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="foto">
+								Foto
+							</label>
+						</td>
+						<td>
+							<label>
+								:
+							</label>
+						</td>
+						<td>
+							<input type="file" name="foto" id="foto" accept="img">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" name="submit">
+							<input type="reset" name="reset">
+						</td>
+						
+					</tr>
+					
+				</form>
+			</table>
+		</div>	
+	</body>
+</html>
